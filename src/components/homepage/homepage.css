@@ -1,0 +1,145 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+.homepage{
+    height: 100vh;
+    width : 100vw;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+}
+.dashboard{
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.sidenav{
+    width: 20%;
+    /* background: rgb(249,250,251); */
+    background: rgb(40,40,40);
+}
+.user1{
+   height: 50%;
+   border-bottom: 2px solid black;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   overflow: scroll;
+}
+.user2{
+    height : 50%;
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.username{
+    height: 7%;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.taskcontainer{
+    height: 92%;
+    width: 100%;
+   /* border-bottom: 2px solid black; */
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   overflow: scroll;
+}
+.taskcard{
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    border: 2px solid black;
+    text-align: justify;
+    border-radius: 10px;
+    color: #222;
+    border: none;
+    -webkit-box-shadow: 0 0 10px rgb(0,0,0);
+-moz-box-shadow: 0 0 10px rgb(0,0,0);
+
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+    /* align-self: flex-end; */
+    overflow: hidden;
+    justify-content: space-around;
+}
+.delete, .tick{
+    width: 40%;
+    height: 20px;
+    border-radius: 5px;
+}
+.delete{
+  background : red;
+  text-align: center;
+  color : white;
+}
+.tick{
+background: black;
+text-align: center;
+color : white;
+}
+.description{
+    font-family: 'Poppins', sans-serif;
+    height: 50%;
+    text-align: center;
+}
+.assignedto{
+    margin-top: auto;
+   font-size: 12px;
+   text-align: center;
+}
+.time{
+    margin-top: auto;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+
+.addtask{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    /* background-color:orangered; */
+    align-items: center;
+}
+.timeinput, select, textarea{
+    font-size: 18px;
+    padding: 5px;
+    width: 90%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border : none;
+    background-color: white;
+}
+select{
+    width: 93%;
+}
+textarea{
+    resize: none;
+}
+
+button{
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 5px;
+    background:green;
+    color : #ccc;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
